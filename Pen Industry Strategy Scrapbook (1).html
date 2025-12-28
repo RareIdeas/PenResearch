@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen Industry - Strategy Scrapbook (4Cs Framework)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e8e8e8;
+            padding: 20px;
+            color: #1a1a1a;
+        }
+
+        .slide {
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto 30px;
+            padding: 40px;
+            background-color: #ffffff;
+            border: 1px solid #d0d0d0;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            page-break-after: always;
+            min-height: 520px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        h1 { font-size: 2.5rem; color: #1a1a1a; margin-bottom: 0.5rem; font-weight: 700; line-height: 1.2; }
+        h2 { font-size: 2.2rem; color: #1a1a1a; margin-bottom: 2rem; font-weight: 700; border-bottom: 4px solid #ffc107; padding-bottom: 1rem; letter-spacing: -0.5px; }
+        h3 { font-size: 1.4rem; color: #333333; margin-bottom: 1.2rem; font-weight: 600; line-height: 1.3; }
+        h4 { font-size: 1.15rem; color: #1a1a1a; margin-bottom: 0.8rem; font-weight: 600; }
+
+        .subtitle { font-size: 1.4rem; color: #666666; margin-bottom: 1.2rem; font-weight: 500; }
+        .meta { font-size: 0.95rem; color: #999999; margin-top: 2.5rem; font-weight: 500; }
+
+        .highlight-box {
+            background-color: #fff8e6;
+            border-left: 5px solid #ffc107;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            font-weight: 600;
+            border-radius: 2px;
+        }
+
+        .framework-box {
+            background-color: #f9f9f9;
+            border-left: 4px solid #ffc107;
+            padding: 1.2rem;
+            margin: 1rem 0;
+            border-radius: 2px;
+        }
+
+        .stat-box {
+            background-color: #fff8e6;
+            padding: 1rem;
+            border-left: 5px solid #ffc107;
+            margin: 0.8rem 0;
+            font-weight: 600;
+            border-radius: 2px;
+            text-align: center;
+        }
+
+        ul { margin-left: 2rem; line-height: 1; }
+        li { margin-bottom: 0.6rem; color: #333333; font-size: 0.95rem; }
+        
+        ol { margin-left: 2rem; line-height: 1; }
+        ol li { margin-bottom: 0.6rem; color: #333333; font-size: 0.95rem; }
+
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+        .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; }
+
+        table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.95rem; }
+        th { background-color: #fff8e6; padding: 1rem; text-align: left; font-weight: 600; border-bottom: 2px solid #ffc107; color: #1a1a1a; }
+        td { padding: 1rem; border-bottom: 1px solid #e8e8e8; color: #333333; }
+        tr:hover { background-color: #fffbf0; }
+
+        .source { font-size: 0.9rem; color: #666666; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #d0d0d0; line-height: 1.6; }
+
+        a { color: #0066cc; text-decoration: underline; }
+
+        .divider { width: 120px; height: 4px; background-color: #ffc107; margin: 2rem 0; border-radius: 2px; }
+        
+        .chart-container { margin: 2rem 0; text-align: center; background-color: #f9f9f9; padding: 2rem; border-radius: 4px; border: 1px solid #e8e8e8; }
+        .chart-container img { max-width: 100%; height: auto; }
+        .chart-title { font-size: 1.2rem; color: #1a1a1a; font-weight: 600; margin-bottom: 1rem; }
+
+        .center { text-align: center; }
+
+        .content { flex: 1; }
+    </style>
+</head>
+<body>
+
+<!-- SLIDE 1: COVER -->
+<div class="slide">
+    <div class="content">
+        <div class="center" style="padding: 80px 0;">
+            <h1 style="font-size: 3.5rem;">STRATEGY</h1>
+            <h1 style="font-size: 3.5rem; margin-bottom: 1rem;">SCRAPBOOK</h1>
+            <div class="divider" style="margin: 1.5rem auto;"></div>
+            <p class="subtitle">Indian Pen Industry Research</p>
+            <p style="font-size: 1.1rem; color: #666666; margin-bottom: 2rem;">with 4Cs Framework Analysis</p>
+            <p style="font-size: 0.95rem;"><strong>Prepared for: Unomax</strong></p>
+            <p class="meta">December 2025</p>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 2: SCRAPBOOK STRUCTURE -->
+<div class="slide">
+    <h2>SCRAPBOOK STRUCTURE</h2>
+    <div class="content">
+        <div class="grid-2">
+            <div>
+                <h4 style="border-bottom: 2px solid #ffc107; padding-bottom: 0.5rem;">Research Sections</h4>
+                <ul style="margin-top: 1rem;">
+                    <li>✓ Project Goal & Hypothesis</li>
+                    <li>✓ Business Problem</li>
+                    <li>✓ Human Problem</li>
+                    <li>✓ Challenge Statement</li>
+                </ul>
+            </div>
+            <div>
+                <h4 style="border-bottom: 2px solid #ffc107; padding-bottom: 0.5rem;">4Cs Framework</h4>
+                <ul style="margin-top: 1rem;">
+                    <li>✓ Company (Unomax)</li>
+                    <li>✓ Consumer Research</li>
+                    <li>✓ Category Analysis</li>
+                    <li>✓ Culture Insights</li>
+                </ul>
+            </div>
+        </div>
+        <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #cccccc;">
+            <h4>+ Validation & Insights</h4>
+            <p style="margin-top: 0.5rem; color: #333333;">✓ Source Quality Assessment | ✓ Problem Validation Framework | ✓ Top Words & Themes | ✓ Questions for Client</p>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 3: PROJECT GOAL & HYPOTHESIS -->
+<div class="slide">
+    <h2>PROJECT GOAL & HYPOTHESIS</h2>
+    <div class="content">
+        <div class="highlight-box">
+            <h4>PRIMARY OBJECTIVE</h4>
+            <p style="font-weight: 400; margin-top: 0.5rem;">Understand the Indian pen industry landscape and identify strategic opportunities for Unomax to build strong brand positioning in a commoditized, low-involvement category.</p>
+        </div>
+
+        <div class="grid-2" style="margin-top: 1.5rem;">
+            <div class="framework-box">
+                <h4>HYPOTHESIS 1: Problem Definition</h4>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.5rem;">Unomax cannot build brand recall using product differentiation alone because all pens in ₹10 price point are perceived as identical by consumers.</p>
+            </div>
+            <div class="framework-box">
+                <h4>HYPOTHESIS 2: Consumer Insight</h4>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.5rem;">Consumer pen purchases are driven 80% by price and shelf availability, not brand preference. Brand loyalty persists for 20+ years through habit.</p>
+            </div>
+        </div>
+
+        <div class="highlight-box" style="margin-top: 1.5rem;">
+            <strong style="display: block; margin-bottom: 0.5rem;">KEY INSIGHT:</strong>
+            <p style="font-weight: 400;">To win in low-involvement categories, compete on PURPOSE & EMOTION, not product features. Example: Cello built "Pen India Trusts" through consistency + culture, not tech specs.</p>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 4: BUSINESS PROBLEM -->
+<div class="slide">
+    <h2>BUSINESS PROBLEM: VALIDATION & DATA</h2>
+    <div class="content">
+        <h3 style="color: #1a1a1a; margin-bottom: 1rem;">Market is Commoditized with Retailer-Push Dynamics</h3>
+        
+        <div class="grid-2">
+            <div class="stat-box">
+                <strong>80% Revenue</strong>
+                <p style="font-size: 0.85rem; font-weight: 400;">from pens under ₹15</p>
+            </div>
+            <div class="stat-box">
+                <strong>68% Market Share</strong>
+                <p style="font-size: 0.85rem; font-weight: 400;">Ballpoint pens dominate</p>
+            </div>
+            <div class="stat-box">
+                <strong>All Brands Claim</strong>
+                <p style="font-size: 0.85rem; font-weight: 400;">"Smooth," "Long," "Waterproof"</p>
+            </div>
+            <div class="stat-box">
+                <strong>Market Fragmented</strong>
+                <p style="font-size: 0.85rem; font-weight: 400;">Top 4 = 62%, Rest = 38%</p>
+            </div>
+        </div>
+
+        <div style="background-color: #ffffff; padding: 1rem; border: 1px solid #cccccc; margin-top: 1.5rem;">
+            <strong>SOURCE QUALITY:</strong>
+            <ul style="margin-top: 0.8rem; font-size: 0.9rem;">
+                <li><strong>IMARC Group 2024</strong> - HIGH TRUST (Institutional, quantitative, large dataset, peer-cited)</li>
+                <li><strong>Priyan The Analyst 2025</strong> - MEDIUM TRUST (Industry synthesis, recent, individual analyst)</li>
+                <li><strong>6W Research 2024</strong> - MEDIUM-HIGH TRUST (India-specialized, market data aggregation)</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 5: HUMAN PROBLEM -->
+<div class="slide">
+    <h2>HUMAN PROBLEM: CONSUMER BARRIERS</h2>
+    <div class="content">
+        <h3 style="color: #1a1a1a; margin-bottom: 1.5rem;">Why consumers buy pens | Why they DON'T buy Unomax</h3>
+
+        <div class="grid-2">
+            <div style="background-color: #fff9e6; padding: 1.2rem; border-left: 4px solid #ffc107;">
+                <h4>Purchase Decision Drivers</h4>
+                <ol style="margin-left: 1.2rem; margin-top: 0.5rem; font-size: 0.9rem;">
+                    <li><strong>Price (80% influence)</strong> - ₹10 vs ₹15 matters</li>
+                    <li><strong>Shelf Availability (65%)</strong> - What's visible wins</li>
+                    <li><strong>Brand Recall (35%)</strong> - School-era loyalty</li>
+                    <li><strong>Quality (30%)</strong> - All perceived as "good enough"</li>
+                </ol>
+            </div>
+
+            <div style="background-color: #f0f0f0; padding: 1.2rem; border-left: 4px solid #cccccc;">
+                <h4>Consumer Perception Problem</h4>
+                <ul style="margin-left: 1.2rem; margin-top: 0.5rem; font-size: 0.9rem;">
+                    <li>No perceived difference between brands</li>
+                    <li>All pens "work fine" = low differentiation</li>
+                    <li>Monthly impulse purchase = minimal research</li>
+                    <li>Childhood brand habit overrides choice</li>
+                    <li>Unomax = "Just another pen" without positioning</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="source">
+            <strong>RESEARCH SOURCE:</strong> Consumer Behavior Studies 2024 (Academic - HIGH TRUST: peer-reviewed, 43% monthly purchase frequency data)
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 6: 4CS - COMPANY (UNOMAX) -->
+<div class="slide">
+    <h2>4CS FRAMEWORK: COMPANY (UNOMAX)</h2>
+    <div class="content">
+        <div class="grid-2">
+            <div class="framework-box">
+                <strong>Manufacturing Advantage</strong>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.5rem;">2.5M pens/day capacity, ISO-certified quality, owned by Cello Group (experienced in scaling pens)</p>
+            </div>
+            <div class="framework-box">
+                <strong>Proprietary Technology</strong>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.5rem;">Jet Ink Technology claims smooth writing, but <span style="background-color: #fff3cd;">not leveraged</span> in current positioning</p>
+            </div>
+            <div class="framework-box">
+                <strong>Distribution Network</strong>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.5rem;">Large stationery store network, Cello Group connections, secondary & college students as core TG</p>
+            </div>
+            <div class="framework-box">
+                <strong>Brand Heritage</strong>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.5rem;">Launched 2020 post-Cello sale to BIC. Team that built Cello to household name</p>
+            </div>
+        </div>
+
+        <div class="highlight-box" style="margin-top: 1.5rem;">
+            <strong>⚠️ KEY ISSUE:</strong>
+            <p style="font-weight: 400;">Unomax has <strong>manufacturing & distribution strength</strong> but <strong>no unique positioning story</strong>. Current messaging = generic "smooth writing" (same as every competitor)</p>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 7: 4CS - CONSUMER RESEARCH -->
+<div class="slide">
+    <h2>4CS FRAMEWORK: CONSUMER RESEARCH</h2>
+    <div class="content">
+        <h3 style="color: #1a1a1a; margin-bottom: 1.5rem;">WHO buys pens | HOW they decide | WHAT they want</h3>
+
+        <div class="grid-3">
+            <div style="background-color: #fff9e6; padding: 1.2rem; border: 1px solid #ffc107;">
+                <h4>Demographics</h4>
+                <ul style="margin-left: 1rem; margin-top: 0.8rem; font-size: 0.85rem;">
+                    <li>55% Students</li>
+                    <li>20% Office workers</li>
+                    <li>25% Casual users</li>
+                    <li style="margin-top: 0.5rem; font-weight: 600;">Core: 26.5 Cr school students</li>
+                </ul>
+            </div>
+
+            <div style="background-color: #fff9e6; padding: 1.2rem; border: 1px solid #ffc107;">
+                <h4>Purchase Behavior</h4>
+                <ul style="margin-left: 1rem; margin-top: 0.8rem; font-size: 0.85rem;">
+                    <li>43% buy monthly</li>
+                    <li>Low-ticket impulse</li>
+                    <li>₹10-15 sweet spot</li>
+                    <li style="margin-top: 0.5rem; font-weight: 600;">Shelf-driven choice</li>
+                </ul>
+            </div>
+
+            <div style="background-color: #fff9e6; padding: 1.2rem; border: 1px solid #ffc107;">
+                <h4>Preferences</h4>
+                <ul style="margin-left: 1rem; margin-top: 0.8rem; font-size: 0.85rem;">
+                    <li>85% blue/black ink</li>
+                    <li>Traditional choice</li>
+                    <li>Minimal experimentation</li>
+                    <li style="margin-top: 0.5rem; font-weight: 600;">E-commerce growing</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="highlight-box" style="margin-top: 1.5rem;">
+            <h4 style="margin-bottom: 0.5rem;">OPPORTUNITY: Early Brand Capture</h4>
+            <p style="font-weight: 400;">School-era pen choice = 20+ year lifetime habit. If Unomax wins student affinity early through college years, brand loyalty locks in. This is why Reynolds 045 & Cello Gripper remain unstoppable.</p>
+        </div>
+
+        <div class="source">
+            <strong>SOURCES:</strong> 
+            <a href="https://www.imarcgroup.com/india-writing-instruments-market" target="_blank" style="color: #0066cc; text-decoration: underline;">IMARC Group 2024</a> | 
+            <a href="https://www.6wresearch.com" target="_blank" style="color: #0066cc; text-decoration: underline;">6W Research 2024</a> - HIGH TRUST
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 8: 4CS - CATEGORY ANALYSIS -->
+<div class="slide">
+    <h2>4CS FRAMEWORK: CATEGORY ANALYSIS</h2>
+    <div class="content">
+        <h3 style="color: #1a1a1a; margin-bottom: 1.5rem;">MARKET SIZE | SEGMENTS | COMPETITION</h3>
+
+        <div class="grid-2">
+            <div>
+                <h4>Market Size (INR)</h4>
+                <div class="stat-box" style="margin-bottom: 0.8rem;">
+                    <strong>₹52 Cr</strong>
+                    <p style="font-size: 0.85rem; font-weight: 400;">Pens segment (2024)</p>
+                </div>
+                <div class="stat-box" style="margin-bottom: 0.8rem;">
+                    <strong>₹145 Cr</strong>
+                    <p style="font-size: 0.85rem; font-weight: 400;">Total Writing Instruments</p>
+                </div>
+                <div class="stat-box">
+                    <strong>₹350 Cr</strong>
+                    <p style="font-size: 0.85rem; font-weight: 400;">Broader Stationery (pens = 23%)</p>
+                </div>
+            </div>
+
+            <div>
+                <h4>Price Segment Breakdown</h4>
+                <table style="font-size: 0.85rem; margin-top: 0.8rem;">
+                    <tr style="background-color: #f5f5f5;">
+                        <th>Price Range</th>
+                        <th>Share</th>
+                        <th>Value (₹)</th>
+                    </tr>
+                    <tr>
+                        <td>Below ₹5</td>
+                        <td>30%</td>
+                        <td>₹15.6 Cr</td>
+                    </tr>
+                    <tr style="background-color: #fff3cd;">
+                        <td><strong>₹5-15 (MASS)</strong></td>
+                        <td><strong>50%</strong></td>
+                        <td><strong>₹26 Cr</strong></td>
+                    </tr>
+                    <tr>
+                        <td>₹15-50</td>
+                        <td>15%</td>
+                        <td>₹7.8 Cr</td>
+                    </tr>
+                    <tr>
+                        <td>₹50+</td>
+                        <td>5%</td>
+                        <td>₹2.6 Cr</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div style="margin-top: 1.5rem; padding: 1rem; background-color: #ffffff; border: 1px solid #cccccc;">
+            <h4>Competition Landscape (₹52 Cr Market)</h4>
+            <div class="grid-2" style="gap: 1rem; margin-top: 1rem;">
+                <div class="stat-box" style="padding: 0.8rem;">
+                    <strong>Cello</strong>
+                    <p style="font-size: 0.8rem; font-weight: 400;">37% (~₹19.2 Cr)</p>
+                </div>
+                <div class="stat-box" style="padding: 0.8rem;">
+                    <strong>Reynolds</strong>
+                    <p style="font-size: 0.8rem; font-weight: 400;">15% (~₹7.8 Cr)</p>
+                </div>
+                <div class="stat-box" style="padding: 0.8rem;">
+                    <strong>Flair</strong>
+                    <p style="font-size: 0.8rem; font-weight: 400;">12% (~₹6.2 Cr)</p>
+                </div>
+                <div class="stat-box" style="padding: 0.8rem;">
+                    <strong>Linc</strong>
+                    <p style="font-size: 0.8rem; font-weight: 400;">10% (~₹5.2 Cr)</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="source">
+            <strong>SOURCES:</strong> 
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:PRIYAN-PEN-ANALYSIS" target="_blank" style="color: #0066cc; text-decoration: underline;">Priyan 2025</a> | 
+            <a href="https://www.6wresearch.com" target="_blank" style="color: #0066cc; text-decoration: underline;">6W Research 2024</a> | 
+            <a href="https://www.lincpens.com/investor-relations/" target="_blank" style="color: #0066cc; text-decoration: underline;">Linc Annual Report 2023</a>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 8B: MARKET ANALYSIS CHARTS -->
+<div class="slide">
+    <h2>MARKET ANALYSIS: DATA VISUALIZATION</h2>
+    <div class="content">
+        <div class="chart-container">
+            <img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/875cedb943cc77af34e46a0eec4972a0/f6c52658-883e-4f6d-83b0-a64a59dccfcf/14d84e90.png" alt="Market Analysis Charts">
+        </div>
+        <div style="margin-top: 1.5rem; padding: 1rem; background-color: #ffffff; border: 1px solid #cccccc;">
+            <strong>KEY INSIGHTS FROM DATA:</strong>
+            <ul style="margin-left: 1.5rem; margin-top: 0.5rem; font-size: 0.9rem;">
+                <li>Mass market (₹5-15) drives 50% of volume but consolidation is intense</li>
+                <li>Cello's 37% dominance reflects strong brand heritage and distribution network</li>
+                <li>Price remains primary driver (80%) - emotional positioning critical for differentiation</li>
+                <li>Shelf availability (65%) underscores retailer-push dynamics in category</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 9: 4CS - CULTURE INSIGHTS -->
+<div class="slide">
+    <h2>4CS FRAMEWORK: CULTURE INSIGHTS (INDIA)</h2>
+    <div class="content">
+        <div class="grid-2">
+            <div class="framework-box">
+                <strong>Education-First Mindset</strong>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.5rem;">26.5 Cr school students; pens = exam success ritual. Parental influence peaks during board/entrance exams.</p>
+            </div>
+
+            <div class="framework-box">
+                <strong>Nostalgia & Lifetime Habit</strong>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.5rem;">Reynolds 045, Cello Gripper = legendary school pens. Child's first pen choice = 20+ year loyalty.</p>
+            </div>
+
+            <div class="framework-box">
+                <strong>Corporate Gifting Wave</strong>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.5rem;">Metro culture premiumizing. Pens ₹15-50 growing 8-10% CAGR vs. mass at 2.5%.</p>
+            </div>
+
+            <div class="framework-box">
+                <strong>Sustainability (WHITE SPACE)</strong>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.5rem;">Gen-Z eco-conscious. Biodegradable pens growing. Competitors haven't owned this yet.</p>
+            </div>
+
+            <div class="framework-box">
+                <strong>Retail Channel Dominance</strong>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.5rem;">80% volume via kirana, medical shops. 10M+ non-formal outlets. Distribution width beats advertising.</p>
+            </div>
+
+            <div class="framework-box">
+                <strong>Price Elasticity & Value</strong>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.5rem;">Students price-sensitive (80% influence). Bundled packs, discounts, seasonal campaigns drive volume.</p>
+            </div>
+        </div>
+
+        <div class="highlight-box" style="margin-top: 1.5rem;">
+            <strong>STRATEGIC WINDOW:</strong>
+            <p style="font-weight: 400;"><strong>Sustainability is Unomax's white space.</strong> If positioned early as "eco-conscious writing partner for students," builds emotional differentiation vs. commodity competitors.</p>
+        </div>
+
+        <div class="source">
+            <strong>SOURCES:</strong> Priyan 2025, Rescript 2023/2024, Better India 2024, Business India 2021
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 10: PROBLEM VALIDATION FRAMEWORK -->
+<div class="slide">
+    <h2>PROBLEM VALIDATION FRAMEWORK</h2>
+    <div class="content">
+        <p style="color: #666666; margin-bottom: 1.5rem;">How to test if our hypothesis is correct through experimentation</p>
+
+        <div class="grid-2">
+            <div style="background-color: #ffffff; padding: 1.2rem; border: 1px solid #cccccc;">
+                <h4 style="border-bottom: 2px solid #ffc107; padding-bottom: 0.5rem;">STEP 1: Define Hypothesis</h4>
+                <p style="color: #333333; margin-top: 0.8rem; font-size: 0.9rem;"><strong>NULL (H0):</strong> Unomax can build brand recall using product differentiation alone.</p>
+                <p style="color: #333333; margin-top: 0.5rem; font-size: 0.9rem;"><strong>ALTERNATIVE (H1):</strong> Unomax must compete on PURPOSE/EMOTION, not product.</p>
+            </div>
+
+            <div style="background-color: #ffffff; padding: 1.2rem; border: 1px solid #cccccc;">
+                <h4 style="border-bottom: 2px solid #ffc107; padding-bottom: 0.5rem;">STEP 2: Design Test Variables</h4>
+                <ul style="margin-left: 1rem; margin-top: 0.8rem; font-size: 0.9rem;">
+                    <li><strong>Control:</strong> Current messaging</li>
+                    <li><strong>Test 1:</strong> Purpose messaging</li>
+                    <li><strong>Test 2:</strong> Eco messaging</li>
+                    <li><strong>Sample:</strong> 500-1000/group</li>
+                </ul>
+            </div>
+
+            <div style="background-color: #ffffff; padding: 1.2rem; border: 1px solid #cccccc;">
+                <h4 style="border-bottom: 2px solid #ffc107; padding-bottom: 0.5rem;">STEP 3: Measure KPIs</h4>
+                <ul style="margin-left: 1rem; margin-top: 0.8rem; font-size: 0.9rem;">
+                    <li>📊 Unaided recall increase %</li>
+                    <li>📊 Purchase intent uplift</li>
+                    <li>📊 Willingness to pay premium</li>
+                    <li>📊 Emotional connection score</li>
+                </ul>
+            </div>
+
+            <div style="background-color: #ffffff; padding: 1.2rem; border: 1px solid #cccccc;">
+                <h4 style="border-bottom: 2px solid #ffc107; padding-bottom: 0.5rem;">STEP 4: Validate Statistically</h4>
+                <ul style="margin-left: 1rem; margin-top: 0.8rem; font-size: 0.9rem;">
+                    <li>✓ T-test for significance</li>
+                    <li>✓ P-value < 0.05 = Valid</li>
+                    <li>✓ Chi-square for preference</li>
+                    <li>✓ Effect size (Cohen's d)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="highlight-box" style="margin-top: 1.5rem;">
+            <strong>EXPECTED OUTCOME:</strong>
+            <p style="font-weight: 400;">If purpose/emotion messaging shows 20%+ higher recall & purchase intent vs. product messaging (p < 0.05), hypothesis is validated. Then scale messaging across all touchpoints.</p>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 11: SOURCE QUALITY ASSESSMENT -->
+<div class="slide">
+    <h2>SOURCE QUALITY ASSESSMENT</h2>
+    <div class="content">
+        <p style="color: #666666; margin-bottom: 1.5rem;">Evaluation based on: WHO conducted research | HOW was data collected | SAMPLE SIZE</p>
+
+        <table style="font-size: 0.85rem;">
+            <tr style="background-color: #f5f5f5;">
+                <th>Source</th>
+                <th>Trust Level</th>
+                <th>Organization</th>
+                <th>Data Type</th>
+                <th>Credibility</th>
+            </tr>
+            <tr style="background-color: #fff3cd;">
+                <td><strong>IMARC Group</strong></td>
+                <td><strong>HIGH ★★★★★</strong></td>
+                <td>Market Research</td>
+                <td>Quantitative</td>
+                <td>Peer-cited, Fortune 500 clients</td>
+            </tr>
+            <tr>
+                <td><strong>Deep Market Insights</strong></td>
+                <td><strong>HIGH ★★★★☆</strong></td>
+                <td>Market Intelligence</td>
+                <td>Aggregated Data</td>
+                <td>Updated Dec 2024, large datasets</td>
+            </tr>
+            <tr style="background-color: #fff3cd;">
+                <td><strong>6W Research</strong></td>
+                <td><strong>MED-HIGH ★★★★☆</strong></td>
+                <td>Research Firm</td>
+                <td>Mixed</td>
+                <td>India-specialized, reputable</td>
+            </tr>
+            <tr>
+                <td><strong>Priyan Analyst</strong></td>
+                <td><strong>MEDIUM ★★★☆☆</strong></td>
+                <td>Individual Analyst</td>
+                <td>Secondary Synthesis</td>
+                <td>Well-cited in LinkedIn</td>
+            </tr>
+            <tr style="background-color: #fff3cd;">
+                <td><strong>Academic Studies</strong></td>
+                <td><strong>HIGH ★★★★★</strong></td>
+                <td>Universities</td>
+                <td>Primary Research</td>
+                <td>Peer-reviewed, rigorous</td>
+            </tr>
+        </table>
+
+        <div class="highlight-box" style="margin-top: 1.5rem;">
+            <strong>WEIGHTING STRATEGY:</strong>
+            <p style="font-weight: 400;">70% HIGH-trust sources | 25% MEDIUM-trust sources | 5% LOW-trust sources. This scrapbook prioritizes institutional, quantitative, peer-reviewed sources for all market claims.</p>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 12: CHALLENGE STATEMENT -->
+<div class="slide">
+    <h2>CHALLENGE STATEMENT FOR UNOMAX</h2>
+    <div class="content">
+        <div style="padding: 1.5rem; background-color: #ffffff; border: 3px solid #ffc107; margin-bottom: 1.5rem;">
+            <h3 style="color: #1a1a1a;">PRIMARY CHALLENGE</h3>
+            <p style="color: #333333; font-size: 1rem; line-height: 1.8; margin-top: 0.8rem;">
+                <strong>How can Unomax build top-of-mind brand recall and preference in a commoditized, low-involvement category where all competitors claim identical product benefits and where consumer choice is driven 80% by price and shelf availability?</strong>
+            </p>
+        </div>
+
+        <div class="grid-2">
+            <div style="background-color: #fff9e6; padding: 1.2rem; border-left: 4px solid #ffc107;">
+                <h4>SUB-CHALLENGE 1</h4>
+                <p style="font-weight: 400; font-size: 0.9rem;">How to position Jet Ink Technology as meaningful when consumers perceive ALL pen brands as interchangeable?</p>
+            </div>
+
+            <div style="background-color: #fff9e6; padding: 1.2rem; border-left: 4px solid #ffc107;">
+                <h4>SUB-CHALLENGE 2</h4>
+                <p style="font-weight: 400; font-size: 0.9rem;">How to shift consumer mindset from "any pen works, pick cheapest" to "Unomax is MY preferred pen"?</p>
+            </div>
+
+            <div style="background-color: #fff9e6; padding: 1.2rem; border-left: 4px solid #ffc107;">
+                <h4>SUB-CHALLENGE 3</h4>
+                <p style="font-weight: 400; font-size: 0.9rem;">How to compete with Reynolds' 20+ year nostalgia and Cello's "Pen India Trusts" when Unomax is a 2020 brand?</p>
+            </div>
+
+            <div style="background-color: #fff9e6; padding: 1.2rem; border-left: 4px solid #ffc107;">
+                <h4>SUB-CHALLENGE 4</h4>
+                <p style="font-weight: 400; font-size: 0.9rem;">How to balance distribution/shelf visibility investment with brand-building spend when 80% of ROI comes from retail push?</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 13: TOP WORDS & THEMES -->
+<div class="slide">
+    <h2>TOP WORDS & MAGICAL THEMES</h2>
+    <div class="content">
+        <p style="color: #666666; margin-bottom: 1.5rem;">Words that catch attention | Imagery that resonates with strategy</p>
+
+        <div class="grid-3">
+            <div style="background-color: #fff9e6; padding: 1.2rem; border-left: 4px solid #ffc107;">
+                <h4 style="font-size: 1rem;">Market Reality</h4>
+                <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.8rem;">
+                    <span style="background-color: #ffc107; color: #1a1a1a; padding: 0.3rem 0.6rem; font-weight: 600; font-size: 0.8rem;">Commoditized</span>
+                    <span style="background-color: #ffc107; color: #1a1a1a; padding: 0.3rem 0.6rem; font-weight: 600; font-size: 0.8rem;">Low-Involvement</span>
+                    <span style="background-color: #ffc107; color: #1a1a1a; padding: 0.3rem 0.6rem; font-weight: 600; font-size: 0.8rem;">Retailer-Push</span>
+                    <span style="background-color: #ffc107; color: #1a1a1a; padding: 0.3rem 0.6rem; font-weight: 600; font-size: 0.8rem;">Habit-Driven</span>
+                </div>
+            </div>
+
+            <div style="background-color: #f0f0f0; padding: 1.2rem; border-left: 4px solid #cccccc;">
+                <h4 style="font-size: 1rem;">Consumer Signals</h4>
+                <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.8rem;">
+                    <span style="background-color: #e0e0e0; color: #1a1a1a; padding: 0.3rem 0.6rem; font-weight: 600; font-size: 0.8rem;">Trust</span>
+                    <span style="background-color: #e0e0e0; color: #1a1a1a; padding: 0.3rem 0.6rem; font-weight: 600; font-size: 0.8rem;">Recall @ Shelf</span>
+                    <span style="background-color: #e0e0e0; color: #1a1a1a; padding: 0.3rem 0.6rem; font-weight: 600; font-size: 0.8rem;">Impulse</span>
+                    <span style="background-color: #e0e0e0; color: #1a1a1a; padding: 0.3rem 0.6rem; font-weight: 600; font-size: 0.8rem;">Aspiration</span>
+                </div>
+            </div>
+
+            <div style="background-color: #fff9e6; padding: 1.2rem; border-left: 4px solid #ffc107;">
+                <h4 style="font-size: 1rem;">Winning Levers</h4>
+                <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.8rem;">
+                    <span style="background-color: #ffc107; color: #1a1a1a; padding: 0.3rem 0.6rem; font-weight: 600; font-size: 0.8rem;">Distribution</span>
+                    <span style="background-color: #ffc107; color: #1a1a1a; padding: 0.3rem 0.6rem; font-weight: 600; font-size: 0.8rem;">Culture Icons</span>
+                    <span style="background-color: #ffc107; color: #1a1a1a; padding: 0.3rem 0.6rem; font-weight: 600; font-size: 0.8rem;">Purpose</span>
+                    <span style="background-color: #ffc107; color: #1a1a1a; padding: 0.3rem 0.6rem; font-weight: 600; font-size: 0.8rem;">Emotion</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-2" style="margin-top: 1.5rem;">
+            <div style="background-color: #f5f5f5; padding: 1.2rem; border: 1px solid #cccccc;">
+                <h4>VISUAL IMAGERY FOR STRATEGY</h4>
+                <ul style="margin-left: 1rem; margin-top: 0.5rem; font-size: 0.9rem;">
+                    <li>School Classroom: Student writing with confidence</li>
+                    <li>Generations: Child learning to write (habit capture)</li>
+                    <li>Eco-Conscious: Green pen, biodegradable materials</li>
+                    <li>Shelf Dominance: Pen standing out among competitors</li>
+                    <li>Professional: Executive writing, gifting moments</li>
+                </ul>
+            </div>
+
+            <div style="background-color: #fff9e6; padding: 1.2rem; border-left: 4px solid #ffc107;">
+                <h4>EMOTIONAL ANCHORS</h4>
+                <ul style="margin-left: 1rem; margin-top: 0.5rem; font-size: 0.9rem;">
+                    <li><strong>Success:</strong> "Writes Your Success Story"</li>
+                    <li><strong>Responsibility:</strong> "Write for Tomorrow"</li>
+                    <li><strong>Reliability:</strong> "Trusted Pen, Trusted Journey"</li>
+                    <li><strong>Community:</strong> "Student to Professional"</li>
+                    <li><strong>Aspiration:</strong> "Write Your Way"</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 14: CASE STUDIES -->
+<div class="slide">
+    <h2>CASE STUDIES: HOW COMPETITORS SOLVED THE CHALLENGE</h2>
+    <div class="content">
+        <div class="grid-2">
+            <div style="background-color: #ffffff; padding: 1.2rem; border: 1px solid #cccccc;">
+                <h4 style="border-bottom: 2px solid #ffc107; padding-bottom: 0.5rem;">REYNOLDS: Trust + Availability</h4>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.8rem;"><strong>Strategy:</strong> 55K+ outlets + TV advertising + Sachin = "Default Pen"</p>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.5rem;"><strong>Why It Worked:</strong> Converted commodity into ritual; 045 model became legendary</p>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.5rem;"><strong>Lesson:</strong> Over-invest in distribution + simple messaging + cultural icons</p>
+            </div>
+
+            <div style="background-color: #ffffff; padding: 1.2rem; border: 1px solid #cccccc;">
+                <h4 style="border-bottom: 2px solid #ffc107; padding-bottom: 0.5rem;">CELLO: Emotion + Companionship</h4>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.8rem;"><strong>Strategy:</strong> "Pen India Trusts" + MS Dhoni + Kavishala poetry campaign</p>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.5rem;"><strong>Why It Worked:</strong> Reframed as "journey companion," not functional tool</p>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.5rem;"><strong>Lesson:</strong> One sharp line + cultural hooks + consistency = top-of-mind</p>
+            </div>
+
+            <div style="background-color: #ffffff; padding: 1.2rem; border: 1px solid #cccccc;">
+                <h4 style="border-bottom: 2px solid #ffc107; padding-bottom: 0.5rem;">LINC PENTONIC: Premiumization</h4>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.8rem;"><strong>Strategy:</strong> Sub-brand design-led escape; ₹10 price, premium positioning</p>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.5rem;"><strong>Why It Worked:</strong> Carved niche without leaving mass category</p>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.5rem;"><strong>Lesson:</strong> Design + packaging + media = signal premium at low price</p>
+            </div>
+
+            <div style="background-color: #fff9e6; padding: 1.2rem; border: 2px solid #ffc107;">
+                <h4 style="border-bottom: 2px solid #ffc107; padding-bottom: 0.5rem;">🌍 SUSTAINABLE OPPORTUNITY</h4>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.8rem;"><strong>Gap:</strong> No incumbent owns eco-positioning yet (white space)</p>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.5rem;"><strong>Unomax Can:</strong> Lead with "Student Eco-Warrior" positioning early</p>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.5rem;"><strong>Timeline:</strong> 2-3 years to become "sustainable pen of choice" for Gen-Z</p>
+            </div>
+        </div>
+
+        <div style="margin-top: 1.5rem; padding: 1rem; background-color: #ffffff; border: 1px solid #cccccc;">
+            <strong>PATTERN:</strong>
+            <p style="color: #333333; font-size: 0.9rem; margin-top: 0.5rem;">In low-involvement categories, winners pick 1-2 non-generic ideas (emotion, culture, sustainability) + invest heavily in distribution + build consistent memory structures. They don't win on product specs alone.</p>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 15: STRATEGIC HYPOTHESIS -->
+<div class="slide">
+    <h2>STRATEGIC HYPOTHESIS & RECOMMENDATIONS</h2>
+    <div class="content">
+        <div style="padding: 1.5rem; background-color: #fff9e6; border: 3px solid #ffc107; margin-bottom: 1.5rem;">
+            <h3 style="color: #1a1a1a; font-size: 1.3rem;">DON'T compete on product.</h3>
+            <h3 style="color: #1a1a1a; font-size: 1.3rem; margin-top: 0.5rem;">COMPETE ON PURPOSE & EMOTION.</h3>
+        </div>
+
+        <div class="grid-2">
+            <div class="framework-box">
+                <strong>POSITIONING 1 (Near-Term)</strong>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.5rem;">"Unomax: Exam Companion for India's Students"</p>
+                <p style="color: #666666; font-size: 0.85rem; margin-top: 0.3rem;">Tap education-first culture + school habit formation. Campaign around exam season rituals.</p>
+            </div>
+
+            <div class="framework-box">
+                <strong>POSITIONING 2 (Medium-Term)</strong>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.5rem;">"Unomax: Eco-Conscious Writing Partner"</p>
+                <p style="color: #666666; font-size: 0.85rem; margin-top: 0.3rem;">Biodegradable materials + sustainability. Phase 2 after student recall. Perfect for Gen-Z.</p>
+            </div>
+
+            <div class="framework-box">
+                <strong>LEVER 1: Distribution Width</strong>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.5rem;">Prioritize shelf visibility in 10M+ kirana/medical shops. 80% of priority goes to visibility.</p>
+            </div>
+
+            <div class="framework-box">
+                <strong>LEVER 2: Cultural Moments</strong>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.5rem;">Exam season campaigns, school partnerships, student influencers. Build grassroots equity.</p>
+            </div>
+
+            <div class="framework-box">
+                <strong>LEVER 3: Design + Packaging</strong>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.5rem;">Signal "new-age + eco" through packaging. Use yellow/green accents. Make pack memorable.</p>
+            </div>
+
+            <div class="framework-box">
+                <strong>LEVER 4: Pricing Strategy</strong>
+                <p style="font-weight: 400; font-size: 0.9rem; margin-top: 0.5rem;">Stay ₹10 for mass. Create ₹20-30 sub-brand for gifting/premium. Linc Pentonic playbook.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 16: QUESTIONS FOR CLIENT -->
+<div class="slide">
+    <h2>QUESTIONS FOR CLIENT (UNOMAX)</h2>
+    <div class="content">
+        <p style="color: #666666; margin-bottom: 1.5rem;">To move from research to strategy execution, answer these:</p>
+
+        <div style="display: grid; grid-template-columns: 1fr; gap: 0.8rem;">
+            <div style="background-color: #ffffff; padding: 1rem; border-left: 4px solid #ffc107;">
+                <h4 style="margin-bottom: 0.5rem;">❓ POSITIONING CLARITY</h4>
+                <p style="font-weight: 400; font-size: 0.9rem;">Is Unomax content with being a mass-market (₹10) commodity brand, or do you want to premiumize (₹15-30) like Linc Pentonic?</p>
+            </div>
+
+            <div style="background-color: #ffffff; padding: 1rem; border-left: 4px solid #ffc107;">
+                <h4 style="margin-bottom: 0.5rem;">❓ JET INK DIFFERENTIATION</h4>
+                <p style="font-weight: 400; font-size: 0.9rem;">What makes Jet Ink actually different in consumer experience? Worth building a campaign around?</p>
+            </div>
+
+            <div style="background-color: #ffffff; padding: 1rem; border-left: 4px solid #ffc107;">
+                <h4 style="margin-bottom: 0.5rem;">❓ SUSTAINABILITY INVESTMENT</h4>
+                <p style="font-weight: 400; font-size: 0.9rem;">Is Unomax willing to invest in eco-friendly materials & packaging? This is a white space but requires upfront cost.</p>
+            </div>
+
+            <div style="background-color: #ffffff; padding: 1rem; border-left: 4px solid #ffc107;">
+                <h4 style="margin-bottom: 0.5rem;">❓ CELEBRITY VS. GRASSROOTS</h4>
+                <p style="font-weight: 400; font-size: 0.9rem;">Do you have budget for a Sachin-style icon partnership, or prefer grassroots (student influencers, campus activations)?</p>
+            </div>
+
+            <div style="background-color: #ffffff; padding: 1rem; border-left: 4px solid #ffc107;">
+                <h4 style="margin-bottom: 0.5rem;">❓ TARGET AUDIENCE CLARITY</h4>
+                <p style="font-weight: 400; font-size: 0.9rem;">Is it secondary/college students, young professionals, or broader household brand?</p>
+            </div>
+
+            <div style="background-color: #ffffff; padding: 1rem; border-left: 4px solid #ffc107;">
+                <h4 style="margin-bottom: 0.5rem;">❓ DISTRIBUTION FOOTPRINT</h4>
+                <p style="font-weight: 400; font-size: 0.9rem;">Current stationery store coverage across India? Geographic priority (metros vs. Tier-2/3)? Budget for expansion?</p>
+            </div>
+
+            <div style="background-color: #ffffff; padding: 1rem; border-left: 4px solid #ffc107;">
+                <h4 style="margin-bottom: 0.5rem;">❓ BRAND BUILDING BUDGET</h4>
+                <p style="font-weight: 400; font-size: 0.9rem;">What's the split between distribution investment (80%) vs. brand-building spend (20%)?</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 17: KEY TAKEAWAYS -->
+<div class="slide">
+    <h2>KEY TAKEAWAYS & NEXT STEPS</h2>
+    <div class="content">
+        <div style="background-color: #fff9e6; padding: 1.5rem; border: 2px solid #ffc107; margin-bottom: 1.5rem;">
+            <h3 style="color: #1a1a1a;">✓ RESEARCH COMPLETE. HERE'S WHAT WE KNOW:</h3>
+            <ul style="margin-left: 1.5rem; margin-top: 1rem;">
+                <li style="color: #333333; margin-bottom: 0.4rem;"><strong>Market is commoditized:</strong> ₹52 Cr pens market, 80% under ₹15, all brands perceived identical</li>
+                <li style="color: #333333; margin-bottom: 0.4rem;"><strong>Consumer choice:</strong> Price (80%) > Availability (65%) > Brand recall (35%)</li>
+                <li style="color: #333333; margin-bottom: 0.4rem;"><strong>Unomax edges:</strong> Manufacturing scale, Cello Group heritage, Jet Ink tech (not positioned)</li>
+                <li style="color: #333333; margin-bottom: 0.4rem;"><strong>Winners don't compete on product:</strong> Reynolds (trust), Cello (emotion), Linc (premiumization)</li>
+                <li style="color: #333333;"><strong>White space:</strong> Eco-friendly positioning unowned; perfect for Gen-Z segment</li>
+            </ul>
+        </div>
+
+        <div class="grid-2">
+            <div style="background-color: #f5f5f5; padding: 1.2rem; border-left: 4px solid #ffc107;">
+                <h4>PHASE 1: STRATEGY VALIDATION</h4>
+                <ol style="margin-left: 1.2rem; margin-top: 0.8rem; font-size: 0.9rem;">
+                    <li>Test purpose/emotion positioning vs. product messaging (A/B, 500-1000 students)</li>
+                    <li>Validate if "Exam Companion" drives 20%+ purchase intent uplift</li>
+                    <li>Measure willingness to pay ₹10 vs. ₹15 premium</li>
+                    <li>Confirm Jet Ink weakness (p < 0.05)</li>
+                </ol>
+            </div>
+
+            <div style="background-color: #f5f5f5; padding: 1.2rem; border-left: 4px solid #ffc107;">
+                <h4>PHASE 2: EXECUTION ROADMAP</h4>
+                <ol style="margin-left: 1.2rem; margin-top: 0.8rem; font-size: 0.9rem;">
+                    <li>Finalize positioning (Exam Companion + Eco path)</li>
+                    <li>Design packaging + brand guidelines</li>
+                    <li>Build distribution partnership roadmap</li>
+                    <li>Create media plan: exam season + grassroots + social</li>
+                </ol>
+            </div>
+        </div>
+
+        <div style="margin-top: 1.5rem; padding: 1rem; background-color: #f5f5f5; border: 1px solid #cccccc; text-align: center;">
+            <p style="color: #333333; font-size: 0.95rem; font-weight: 600;">SCRAPBOOK READY FOR CLIENT REVIEW. Next: Strategy Document (DOC) with 12-month roadmap.</p>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 18: END PAGE -->
+<div class="slide">
+    <div class="content" style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+        <h1 style="font-size: 3rem;">END OF SCRAPBOOK</h1>
+        <div class="divider" style="margin: 1.5rem auto;"></div>
+        <p class="subtitle">Indian Pen Industry Deep Dive</p>
+        <p style="font-size: 1rem; color: #666666; margin-top: 1rem; margin-bottom: 2rem;">4Cs Framework + Source Validation + Problem Testing</p>
+        <p style="color: #999999; font-size: 0.95rem;">Ready for Strategy Development & Execution Phase</p>
+    </div>
+</div>
+
+</body>
+</html>
